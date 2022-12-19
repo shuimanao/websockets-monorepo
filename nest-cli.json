@@ -26,6 +26,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/websocket-server/tsconfig.app.json"
       }
+    },
+    "websocket-client": {
+      "type": "application",
+      "root": "apps/websocket-client",
+      "entryFile": "main",
+      "sourceRoot": "apps/websocket-client/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/websocket-client/tsconfig.app.json"
+      }
     }
   }
 }
